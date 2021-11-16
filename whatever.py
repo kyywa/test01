@@ -26,4 +26,12 @@ for i in range(0,10):
 print(average(numberlist))
 print(min_val(numberlist))
 print(min(numberlist))
-
+print(max(numberlist))
+testb = False
+for i in range(0,len(numberlist)-1):
+    if numberlist[i] == 9:
+        testb = True
+if testb == True:
+    print("Van benne 9-es")
+else:
+    print("Nincs benne 9-es")
