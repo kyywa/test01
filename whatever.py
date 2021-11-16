@@ -35,3 +35,25 @@ if testb == True:
     print("Van benne 9-es")
 else:
     print("Nincs benne 9-es")
+if 9 in numberlist:
+    print("Van benne 9-es")
+
+
+usernames = ["user1" , "user2"]
+passwords = ["password1", "password2"]
+
+testb = False
+while  testb == False:
+    tmp_un = input("Felhasználónév: ")
+    tmp_pw = input("Jelszó: ")
+    name_chk = -1
+    for i in range(0, len(usernames)-1):
+        if tmp_un == usernames[i]:
+            name_chk = i
+    if tmp_pw == passwords[name_chk]:
+        print("Sikeres bejelentkezés!")
+        testb = True
+    else:
+        print("Hibás felhasználónév/jelszó")
+            
+        
