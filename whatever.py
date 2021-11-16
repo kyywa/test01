@@ -1,2 +1,3 @@
-print("Baka mitai")
-print("[Mark of the War Prisoner] pls")
+#print("proba1")
+#print("proba2")
+print("Az összeg: "+ str(int(input("Az első szám:"))+(int(input("A második szám:")))))
